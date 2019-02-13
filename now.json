@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "name": "koa-get-request",
+  "alias": "koa-get-request.now.sh",
+  "env": {
+    "DBHOST": "your_aws_endpoint",
+    "DBPORT": "3306",
+    "DBUSER": "your_username",
+    "DBPASSWORD": "your_password",
+    "DBNAME": "movies"
+  },
+  "builds": [
+    { "src": "index.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.js" }
+  ]
+}
