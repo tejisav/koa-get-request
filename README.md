@@ -2,5 +2,5 @@
 
 ## HTTPie Test
 ```
-http https://koa-get-request-4ull1hg45.now.sh < movie.json
+http https://koa-get-request.now.sh < movie.json
 ```
